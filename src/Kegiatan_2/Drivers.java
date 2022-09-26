@@ -12,10 +12,10 @@ public class Drivers {
         nim = xy.next();
 
         if(nim.length() < 15){
-            System.out.print("Coba");
+            System.out.print("Nim Anda Kurang Dari 15 Angka Silahkan Coba Lagi");
             System.out.println();
         }else if(nim.length() > 15){
-            System.out.print("Turu");
+            System.out.print("Nim Anda Lebih Dari 15 Angka Silahkan Coba Lagi");
             System.out.println();
         }else if(!nim.contains("10370311")){
             System.out.println("Nim Harus terdapat 10370311");
