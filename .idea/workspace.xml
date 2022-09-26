@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c489fbbb-3a70-43d5-9676-4a57b0b3dd6b" name="Changes" comment="" />
+    <list default="true" id="c489fbbb-3a70-43d5-9676-4a57b0b3dd6b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Modul1_PL/Kegiatan_2/Drivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Modul1_PL/Kegiatan_2/Drivers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kegiatan_2/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kegiatan_2/Drivers.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -24,13 +31,29 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
-  <component name="RunManager" selected="Application.Drivers">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/LAB B-01/IdeaProjects/Modul_1_Java-Advanced"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Kegiatan_2.Main">
     <configuration name="Drivers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kegiatan_2.Drivers" />
+      <module name="Modul1_PL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Kegiatan_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kegiatan_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kegiatan_2.Main" />
       <module name="Modul1_PL" />
       <extension name="coverage">
         <pattern>
@@ -57,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kegiatan_2.Main" />
         <item itemvalue="Application.Drivers" />
         <item itemvalue="Application.Main" />
       </list>
@@ -72,5 +96,16 @@
       <updated>1663897697990</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
