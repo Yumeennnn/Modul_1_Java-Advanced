@@ -6,34 +6,31 @@ public class Drivers {
     static Scanner xy = new Scanner(System.in);
     static String nim;
     static boolean isBalik = true;
+
     public static void main(String[] args) throws Exception {
         Menu();
     }
 
-    public static void Menu() throws Exception{
-            try{
-                while (isBalik){
-                    System.out.print("Masukkan Nim Anda: ");
-                    nim = xy.next();
-                    if(nim.length() < 15) {
-                        throw new Exception("Nim Anda Kurang Dari 15 Angka Silahkan Coba Lagi");
-                    }
+    public static void Menu() throws Exception {
+        while (isBalik) {
+            try {
+                System.out.print("Masukkan Nim Anda: ");
+                nim = xy.next();
+                if (nim.length() < 15) {
+                    throw new Exception("Nim Anda Kurang Dari 15 Angka Silahkan Coba Lagi");
+                } else if (nim.length() > 15) {
+                    throw new Exception("Nim Anda Lebih Dari 15 Angka Silahkan Coba Lagi");
+                } else if (!nim.contains("10370311")) {
+                    throw new Exception("Nim Anda Harus Terdapat 10370311");
+                } else {
+                    isBalik = false;
                 }
-                System.out.println("Nim Telah Di Input");
-//            }catch(Error e){
-//                }else if(nim.length() > 15){
-//                    System.out.print("Nim Anda Lebih Dari 15 Angka Silahkan Coba Lagi");
-//                    System.out.println();
-//                }else if (!nim.contains("10370311")){
-//                    System.out.println("Nim Harus terdapat 10370311");
-//                }
-            }finally {
-                isBalik = false;
             }
+            System.out.println("Nim Telah Di Input");
+        }catch(Exception e){
+            System.out.println("Salah Tes " + nim);
         }
-
-
-
-
     }
+}
+
 
