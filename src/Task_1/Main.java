@@ -1,6 +1,4 @@
-package Kegiatan_1;
-
-import java.util.*;
+package Task_1;
 
 public class Main {
     public static void main(String[] args) {

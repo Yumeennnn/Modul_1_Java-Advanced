@@ -1,4 +1,4 @@
-package Kegiatan_2;
+package Task_2;
 
 import java.util.*;
 
@@ -7,12 +7,12 @@ public class Drivers {
     static String nim;
     static boolean isBalik = true;
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Menu();
     }
 
-    public static void Menu() throws Exception {
-        while (isBalik) {
+    public static void Menu(){
+        while (isBalik){
             try {
                 System.out.print("Masukkan Nim Anda: ");
                 nim = xy.next();
@@ -25,10 +25,11 @@ public class Drivers {
                 } else {
                     isBalik = false;
                 }
+                System.out.println("Nim Telah Di Input");
+            } catch (Exception e) {
+                System.out.println(e);
+                System.out.print("\n");
             }
-            System.out.println("Nim Telah Di Input");
-        }catch(Exception e){
-            System.out.println("Salah Tes " + nim);
         }
     }
 }
